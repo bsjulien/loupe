@@ -1,6 +1,6 @@
 # Loupe
 
-A personal, Shottr-style screenshot utility for macOS: region/window/full-screen/scrolling capture,
+A personal screenshot utility for macOS: region/window/full-screen/scrolling capture,
 an annotation editor, a native color picker, select-to-copy OCR, and pin-to-screen — all native
 Swift/AppKit/SwiftUI, no third-party dependencies, no App Sandbox.
 
