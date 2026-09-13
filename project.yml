@@ -1,0 +1,32 @@
+name: Loupe
+options:
+  bundleIdPrefix: com.julienbarezi
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  Loupe:
+    type: application
+    platform: macOS
+    sources:
+      - path: Loupe
+        excludes:
+          - "Resources/Info.plist"
+    info:
+      path: Loupe/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: Loupe
+        LSMinimumSystemVersion: "14.0"
+        LSUIElement: true
+        NSPrincipalClass: NSApplication
+        NSHumanReadableCopyright: "Personal use"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.julienbarezi.loupe
+        PRODUCT_NAME: Loupe
+        MARKETING_VERSION: "1.0"
+        SWIFT_VERSION: "5.0"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: NO
+        COMBINE_HIDPI_IMAGES: YES
+        GENERATE_INFOPLIST_FILE: NO
